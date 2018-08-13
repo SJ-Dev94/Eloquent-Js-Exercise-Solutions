@@ -1,0 +1,5 @@
+var num = 7;
+var str = '';
+for (var i = 0; i < num; num--) { 
+	console.log(str += "#");
+}
