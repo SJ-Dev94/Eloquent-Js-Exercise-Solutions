@@ -1,0 +1,17 @@
+var x = "";
+var binding = 8;
+var total;
+
+for (var i = 0; i < binding ; i++){
+  for (var j = 0; j < binding; j++){
+  	total = i + j;
+    if (total % 2 == 0){
+    	x += " ";
+    }	else { 
+    		x += "#";
+    	}
+    }
+ x += "\n";
+    
+}
+console.log(x);
